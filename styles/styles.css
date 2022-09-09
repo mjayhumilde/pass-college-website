@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+.logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f3d931;
+    background-color: rgb(210, 15, 14);
+}
+
+.logo h1{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.logo i{
+    margin-right: 20px;
+    font-size: 35px;
+}
+main{
+    display: grid;
+    grid-template-columns: 100%px;
+}
+main img{
+    width: 100%;
+}
+main .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 15, 14);
+    padding-bottom: 15px;
+}
+main .title h2{
+    color: #f3d931;
+    font-size: 40px;
+    margin: 60px 0 0;
+}
+main .sub-title{
+    background-color: rgb(210, 15, 14);
+    text-align: center;
+    height: 120px;
+}
+main .sub-title p{
+    margin: 0;
+    color: #fff;
+}
+
+
+.title-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-2 .container-2{
+    margin-top: 20px;
+    background-color: rgb(210, 15, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.title-2 p{
+    margin: 20px 0 0;
+}
+.title-2 .sub-title-2 h2{
+    font-size: 30px;
+    margin: 10px 0 0;
+    color: #f3d931;
+}
+.mission{
+    text-align: center;
+    color: #fff;
+}
+ul li{
+    color: #fff;
+}
+
+.about{
+    text-align: center;
+}
+.about .fa-brands{
+    font-size: 100px;
+    color:  blue;
+    margin-bottom: 10px;
+}
+.crdts{
+    background-color: rgb(210, 15, 14);
+    text-align: center;
+}
+.crdts p{
+    margin: 0;
+    font-size: 10px;
+}
